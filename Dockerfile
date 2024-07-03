@@ -1,4 +1,4 @@
-FROM python:3.11.7-slim
+FROM python:3.13.0b2-slim
 
 ENV PYTHONUNBUFFERED=1
 RUN apt update && apt install -y apt-transport-https
